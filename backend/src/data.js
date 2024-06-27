@@ -8,7 +8,7 @@ export const sample_foods = [
     origins: ['italy'],
     stars: 4.5,
     imageUrl: 'food-1.jpg',
-    tags: ['FastFood', 'Pizza', 'Lunch'],
+    tags: ['Chai Spot', 'MSN Hotel', 'Mohabath Hotel'],
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const sample_foods = [
     origins: ['persia', 'middle east', 'china'],
     stars: 5,
     imageUrl: 'food-2.jpg',
-    tags: ['SlowFood', 'Lunch'],
+    tags: ['KR Bakery', 'Mohabath Hotel'],
   },
   {
     id: '3',
@@ -30,7 +30,7 @@ export const sample_foods = [
     origins: ['germany', 'us'],
     stars: 3.5,
     imageUrl: 'food-3.jpg',
-    tags: ['FastFood', 'Hamburger'],
+    tags: ['Chai Spot', 'Usha Mess'],
   },
   {
     id: '4',
@@ -41,7 +41,7 @@ export const sample_foods = [
     origins: ['belgium', 'france'],
     stars: 3,
     imageUrl: 'food-4.jpg',
-    tags: ['FastFood', 'Fry'],
+    tags: ['Chai Spot', 'Zam Zam Hotel'],
   },
   {
     id: '5',
@@ -52,30 +52,30 @@ export const sample_foods = [
     origins: ['india', 'asia'],
     stars: 3.5,
     imageUrl: 'food-5.jpg',
-    tags: ['SlowFood', 'Soup'],
+    tags: ['KR Bakery', 'Lords Restaurant'],
   },
   {
     id: '6',
-    name: 'Vegetables Pizza',
+    name: 'Vegetables MSN Hotel',
     price: 9,
     cookTime: '40-50',
     favorite: false,
     origins: ['italy'],
     stars: 4.0,
     imageUrl: 'food-6.jpg',
-    tags: ['FastFood', 'Pizza', 'Lunch'],
+    tags: ['Chai Spot', 'MSN Hotel', 'Mohabath Hotel'],
   },
 ];
 
 export const sample_tags = [
   { name: 'All', count: 6 },
-  { name: 'FastFood', count: 4 },
-  { name: 'Pizza', count: 2 },
-  { name: 'Lunch', count: 3 },
-  { name: 'SlowFood', count: 2 },
-  { name: 'Hamburger', count: 1 },
-  { name: 'Fry', count: 1 },
-  { name: 'Soup', count: 1 },
+  { name: 'Chai Spot', count: 5 },
+  { name: 'MSN Hotel', count: 2 },
+  { name: 'Mohabath Hotel', count: 3 },
+  { name: 'KR Bakery', count: 2 },
+  { name: 'Usha Mess', count: 1 },
+  { name: 'Zam Zam Hotel', count: 1 },
+  { name: 'Lords Restaurant', count: 1 },
 ];
 
 export const sample_users = [
